@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  caddy:
+    build: .
+    env_file:
+      - ./.env
+    volumes:
+      - ./data:/data

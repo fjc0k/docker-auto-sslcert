@@ -1,0 +1,15 @@
+{
+  "version": "0.0.0",
+  "scripts": {
+    "release": "standard-version -a && git push --follow-tags origin master"
+  },
+  "dependencies": {
+    "chokidar": "3.4.3",
+    "fs-extra": "9.0.1",
+    "got": "11.8.1",
+    "lodash.debounce": "4.0.8"
+  },
+  "devDependencies": {
+    "standard-version": "9.1.0"
+  }
+}
