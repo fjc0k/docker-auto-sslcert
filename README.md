@@ -6,7 +6,7 @@
 
 | 变量名称       | 说明                                               | 示例                                                                                                                                                                                                                        |
 | -------------- | -------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| DNSPOD_API_KEY | DNSPod 的鉴权信息，格式：ID,Token                  | 10086,dsdwkkd3k2493242940329                                                                                                                                                                                                |
+| DNSPOD_API_KEY | DNSPod 的鉴权信息，格式：`ID,Token`                | 10086,dsdwkkd3k2493242940329                                                                                                                                                                                                |
 | DOMAIN_LIST    | 要生成证书的域名列表，支持泛域名                   | foo.bar,\*.x.qq.com                                                                                                                                                                                                         |
 | NOTIFY_URL     | 证书更新时的通知地址，可以为一个字符串或 JSON 对象 | https://foo.bar/sslcert-update<br /><br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;"foo.bar": "https://foo.bar/sslcert-update/foo.bar",<br />&nbsp;&nbsp;&nbsp;&nbsp;"\*.x.qq.com": "https://foo.bar/sslcert-update/.x.qq.com"<br />} |
 
